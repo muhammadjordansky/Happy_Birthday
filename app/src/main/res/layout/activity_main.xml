@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
+    <!--ImageView adalah widget yang digunakan untuk menampilkan gambar berupa .jpg atau .png    -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/androidparty" />
-
+    <!--TextView digunakan untuk menampilkan teks di layar-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <!--TextView digunakan untuk menampilkan teks di layar-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
+<!--Button berfungsi untuk melakukan perintah,biasanya untuk menuju link atau login -->
     <Button
         android:id="@+id/button2"
         android:layout_width="166dp"
